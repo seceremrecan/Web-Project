@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+  }
+ .menu-bar{
+  background:rgb(58, 82, 92) ;
+  text-align: center;
+
+
+ }
+ .menu-bar ul{
+   display: inline-flex;
+   list-style: none;
+
+ }
+ .menu-bar ul li{
+   width: 250px;
+   margin: 15px;
+   padding: 15px;
+ }
+ .menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+
+ }
+ .menu-bar ul li a:focus{
+   color: burlywood;
+ }
+ .active,.menu-bar ul li:hover{
+   background: #95d4b5;
+   border-radius: 10px;
+ }
+ .menu-bar .fas ,.fa-solid{
+  margin: 5px;
+ }
+
+.container .resim .yazi  {
+  margin-left: 180px;
+  margin-top: -150px;
+}
+.container  .yazi h2{
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+.container  .yazi p{
+    margin-left: 30px;
+}
+.container .içerik{
+  margin-left: 70px;
+  text-align: justify;
+  width: 80%;
+  margin-top: 150px;
+  
+  
+}
+.container .resim img{
+    border-radius: 50%;
+}
+.container  .içerik-resim{
+  margin-left: 90%;
+  margin-top: -120px;
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: sans-serif;
+    background-color: rgb(58, 82, 92);
+    /* background-image: url(../images/arka-plan.jpg); */
+    
+  }
+ .menu-bar{
+  background:#5D4954 ;
+  text-align: center;
+
+
+ }
+ /**/
+ .menu-bar ul{
+   display: inline-flex;
+   list-style: none;
+
+ }
+ .menu-bar ul li{
+   width: 250px;
+   margin: 15px 0;
+   padding: 15px;
+ }
+ .menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+
+ }
+ .menu-bar ul li a:focus{
+   color: burlywood;
+ }
+ .active,.menu-bar ul li:hover{
+   background: #95d4b5;
+   border-radius: 10px;
+ }
+ .menu-bar .fas ,.fa-solid{
+  margin: 5px;
+ }
+.container{
+  /* background-color: wheat; */
+}
+.container .resim .yazi  {
+  margin-left: 180px;
+  margin-top: -23%;
+}
+.container  .yazi h2{
+  margin-top: 70px;
+    margin-left: 35%;
+    margin-bottom: 40px;
+    color: antiquewhite;
+}
+.container  .yazi p{
+    margin-left: 14%;
+    color: antiquewhite;
+   width: 60%;
+}
+.container .içerik{
+  margin-left: 70px;
+  text-align: justify;
+  width: 80%;
+  margin-top: 150px;
+
+}
+.container .rounded-circle{
+width: 170px;
+margin:8%; 
+border-radius: 500px;
+}
+.container .resim img{
+    /* border-radius: 50%; */
+  
+}
+.container  .içerik-resim{
+  margin-left: 100%;
+  margin-top: -120px;
+}

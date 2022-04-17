@@ -46,10 +46,10 @@
 }
 .container .resim .yazi  {
   margin-left: 180px;
-  margin-top: -23%;
+  margin-top: -21%;
 }
 .container  .yazi h2{
-  margin-top: 70px;
+  margin-top: 20px;
     margin-left: 35%;
     margin-bottom: 40px;
     color: antiquewhite;
@@ -59,23 +59,34 @@
     color: antiquewhite;
    width: 60%;
 }
-.container .içerik{
-  margin-left: 70px;
+.container .içerik p{
+  margin-left: 12%;
   text-align: justify;
-  width: 80%;
-  margin-top: 150px;
+  width: 60%;
+  margin-top: 190px;
+  color: antiquewhite;
+  /* margin-left: ;
+  color: antiquewhite;
+   width: 60%; */
 
 }
 .container .rounded-circle{
 width: 170px;
 margin:8%; 
-border-radius: 500px;
+border-radius: 400%;
+margin-top: 30px;
 }
 .container .resim img{
     /* border-radius: 50%; */
   
 }
-.container  .içerik-resim{
-  margin-left: 100%;
-  margin-top: -120px;
+.container  .içerik-resim {
+  margin-left: 75%;
+  margin-top: -170px;
+  
+}
+.container  .içerik-resim2 {
+  margin-left: 85%;
+  margin-top: -100px;
+  
 }

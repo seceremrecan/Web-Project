@@ -5,9 +5,10 @@
   }
   body{
     font-family: sans-serif;
+    background-color: rgb(58, 82, 92);
   }
  .menu-bar{
-  background:rgb(58, 82, 92) ;
+  background:#5D4954 ;
   text-align: center;
 
 

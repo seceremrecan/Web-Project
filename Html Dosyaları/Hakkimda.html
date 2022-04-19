@@ -10,71 +10,105 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <div class="menu-bar">
-      <ul>
-        <li>
-          <a href="Hakkimda.html"><i class="fas fa-user"></i>HAKKIMDA</a>
-        </li>
-        <li>
-          <a href="Egitimbilgilerim.html"
-            ><i class="fas fa-edit"></i>EĞİTİM BİLGİLERİM</a
-          >
-        </li>
-        <li>
-          <a href="Sehrim.html"><i class="fa-solid fa-city"></i>ŞEHRİM</a>
-        </li>
-        <li><a href="Mirasımız.html">MİRASIMIZ</a></li>
-        <li><a href="İlgialanlarım.html">İLGİ ALANLARIM</a></li>
-        <li><a href="İletisim.html">İLETİŞİM</a></li>
-      </ul>
-    </div>
-    <br />
-
+    
     <div class="container">
-      <div class="resim">
-        <!-- <img src="../images/Hakkimda2-jpeg.jpeg" alt="" width="150" /> -->
-        <img class="rounded-circle" src="../images/About.jpeg" alt="" />
-
-        <!-- <img class="rounded-start" src="../images/About.jpeg" alt=""> -->
-        <div class="yazi">
-          <h2><strong>Kişisel Bilgilerim</strong></h2>
-
+      <div class="navbar bg-dark navbar-dark navbar-expand-sm" >
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="mobile" class="collapse navbar-collapse">               
+        
+              <ul class="navbar-nav me-auto" >
+                  <li class="nav-item">
+                      <a href="../Html Dosyaları/Hakkimda.html" class="nav-link" ><i class="fas fa-user"></i>Hakkımda</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="../Html Dosyaları/Egitimbilgilerim.html" class="nav-link"><i class="fas fa-edit"></i>Eğitim Bilgileri</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="../Html Dosyaları/Sehrim.html" class="nav-link"><i class="fa-solid fa-city"></i>Şehrim</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="../Html Dosyaları/Mirasımız.html" class="nav-link">Mirasımız</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="../Html Dosyaları/İlgialanlarım.html" class="nav-link">İlgi Alanlarım</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="../Html Dosyaları/İletisim.html" class="nav-link">İletişim</a>
+                  </li>
+              </ul>
+              <form class="d-flex">           
+                  
+                  
+    
+                      <a class="btn btn-danger" href="http://localhost/PHP/WEB%20Proje/index2.php">Login</a>
+                                  
+              </form>
+              
+      </div>
+  
+      </div>
+      
+      <div class="text-start pt-5 mt-5 px-3 ">
+          <img class="rounded-circle" src="../images/About.jpeg" alt="">
+          <div class="yazi">
+              <p>
+                <i class="fa-solid fa-arrow-right-long"></i> Merhaba ben Emre Can
+                Seçer WEB siteme Hoşgeldiniz.4 Ocak 2002 Ankara/Çankaya doğumluyum
+                uzun bir süre boyunca Kırşehir de yaşadım.Sakarya Üniversitesi
+                Bilgisayar Mühendisliği 1.Sınıf Öğrencisiyim
+              </p>
+              
+              <br />
+          </div>
+        </div>
+        <div class="içerik">
           <p>
-            <i class="fa-solid fa-arrow-right-long"></i> Merhaba ben Emre Can
-            Seçer WEB siteme Hoşgeldiniz.4 Ocak 2002 Ankara/Çankaya doğumluyum
-            uzun bir süre boyunca Kırşehir de yaşadım.Sakarya Üniversitesi
-            Bilgisayar Mühendisliği 1.Sınıf Öğrencisiyim
+            <i class="fa-solid fa-arrow-right-long"></i>Aktivite olarak Basketbol
+            ve E-spor ile ilgiliyim.Bu iki spor dalını hem izlemeyi hem de
+            oynamaktan zevk alırım.Basketbolda NBA yi yakından takip ederken
+            E-spor da ise LEC/NA takımlarını yakından takip ederim <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br>
+  
+            <i class="fa-solid fa-arrow-right-long"></i>Bunların dışında doğal
+            yaşamda vakit geçirmek doğa yürüyüşleri yapmak, kamp yapmak vb. gibi
+            doğayla ilgili şeyleri severim
+            
           </p>
-          <br />
           
         </div>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/emre-can-se%C3%A7er-b9404321b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/emre.secr/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+  
+        <div class="içerik-resim">
+          <img src="../images/NBA-logo-illustration.jpg" alt="" width="120" />
+        </div>
+        <div class="içerik-resim2">
+          <img src="../images/LEC.jpg" alt="" width="120" />
+        </div>
       </div>
-      <div class="içerik">
-        <p>
-          <i class="fa-solid fa-arrow-right-long"></i>Aktivite olarak ise
-          Basketbol ve E-spor ile ilgiliyim.Bu iki spor dalını hem izlemeyi
-          hem de oynamaktan zevk alırım.Basketbolda NBA yi yakından takip
-          ederken E-spor da ise LEC/NA takımlarını yakından takip ederim
-          <br> <br> <br> <br> <br> 
-
-          <i class="fa-solid fa-arrow-right-long"></i>Bunların dışında doğal yaşamda vakit geçirmek 
-          kamp yapmak,doğa yürüyüşleri yapmak vb. gibi doğayla ilgili şeyleri severim
-          
-        </p>
-
-      </div>
-   
-      <div class="içerik-resim">
-        <img src="../images/NBA-logo-illustration.jpg" alt="" width="120"  />
-        
-      </div>
-      <div class="içerik-resim2">
-        <img src="../images/LEC.jpg" alt="" width="120"  />
-      </div>
-
-
-    </div>
+  </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

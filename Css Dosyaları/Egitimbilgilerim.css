@@ -1,40 +1,117 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+padding: 20px;
+
+background-color: #84AFBE!important;
+}
+
+
+.container{
+  border:  solid white;
+  /* text-align: center; */
+  /* padding: 21%; */
+  
+  padding-top: 22%;
+  padding-bottom: 21%;
+  background-color: white;
+  margin-top: 2%;
+  border-radius: 30px;
+  /* padding-left:-100px !important;
+  padding-right: -200px!important; */
+  
+}
+.navbar{
+  /* margin: 10% !important; */
+  padding: 10%;
+  
+  margin-top: -332px;
+  margin-left: -15px;
+  border-top-left-radius:30px;
+  border-top-right-radius: 30px;
+  width: 1321px;
+}
+.navbar-nav  li{
+margin: 10px;
+
+}
+.navbar-nav  li i{
+  
+  margin: 8px;
+  margin-left:30px;
+  
   }
-  body{
-    font-family: sans-serif;
-    background-color: rgb(58, 82, 92);
-  }
- .menu-bar{
-  background:#5D4954 ;
+  .navbar-nav  li a{
+      /* margin: 10px; */
+      
+      
+}
+.footer{
+margin: 40px;
+padding: 30px;
+
+}
+.container .btn{
+  border-radius: 10px;
+}
+.rounded-circle{
+width: 170px;
+margin: 4%;
+
+margin-top: -40px;
+}
+.yazi p{
+  margin-left: 22%;
+  color: crimson;
+ width: 80%;
+ margin-top: -180px;
+}
+.social-media a:hover{
+  color: #3B5998 ;
+transition: .5s;
+}
+ .social-media a{
+  display: block;
+  width: 40px;
+  background: crimson;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
+  margin: 0 5px;/* birbirleri arasında uzaklaştırmayı sağlar*/
+  color: #bdb8d7;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+  .içerik-resim {
+  margin-left: 87%;
+  margin-top: -330px;
+  
+}
+  .içerik-resim2 {
+  margin-left: 87%;
+  margin-top: 10px;
+  
+}
+ .içerik p{
+  margin-left: 4%;
+  text-align: justify;
+  width: 80%;
+  margin-top: 170px;
+  color: crimson;
+
+}
+ .social-media{
+  position: absolute; 
+    bottom: 0;
+    /* margin-top: 5%; */
+    left: 50%;
+   padding-top: 10px;
+    transform: translate(-50%);
+    display: flex;
+}
 
 
- }
- .menu-bar ul{
-   display: inline-flex;
-   list-style: none;
-
- }
- .menu-bar ul li{
-   width: 250px;
-   margin: 15px 0;
-   padding: 15px;
- }
- .menu-bar ul li a{
-  text-decoration: none;
-  color: #fff;
-
- }
- .menu-bar ul li a:focus{
-   color: burlywood;
- }
- .active,.menu-bar ul li:hover{
-   background: #95d4b5;
-   border-radius: 10px;
- }
- .menu-bar .fas ,.fa-solid{
-  margin: 5px;
- }
+    

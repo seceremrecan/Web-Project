@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hakkımda</title>
     <link rel="stylesheet" href="../Css Dosyaları/Hakkimda.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Oswald:wght@500&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;1,200&display=swap');
+      </style>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -18,97 +24,141 @@
       crossorigin="anonymous"
     />
   </head>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"
+></script>
   <body>
-    
     <div class="container">
-      <div class="navbar bg-dark navbar-dark navbar-expand-sm" >
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div id="mobile" class="collapse navbar-collapse">               
-        
-              <ul class="navbar-nav me-auto" >
-                  <li class="nav-item">
-                      <a href="../Html Dosyaları/Hakkimda.html" class="nav-link" ><i class="fas fa-user"></i>Hakkımda</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="../Html Dosyaları/Egitimbilgilerim.html" class="nav-link"><i class="fas fa-edit"></i>Eğitim Bilgileri</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="../Html Dosyaları/Sehrim.html" class="nav-link"><i class="fa-solid fa-city"></i>Şehrim</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="../Html Dosyaları/Mirasımız.html" class="nav-link">Mirasımız</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="../Html Dosyaları/İlgialanlarım.html" class="nav-link">İlgi Alanlarım</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="../Html Dosyaları/İletisim.html" class="nav-link">İletişim</a>
-                  </li>
-              </ul>
-              <form class="d-flex">           
-                  
-                  
-    
-                      <a class="btn btn-danger" href="http://localhost/PHP/WEB%20Proje/index2.php">Login</a>
-                                  
-              </form>
-              
-      </div>
-  
-      </div>
-      
-      <div class="text-start pt-5 mt-5 px-3 ">
-          <img class="rounded-circle" src="../images/About.jpeg" alt="">
-          <div class="yazi">
-              <p>
-                <i class="fa-solid fa-arrow-right-long"></i> Merhaba ben Emre Can
-                Seçer WEB siteme Hoşgeldiniz.4 Ocak 2002 Ankara/Çankaya doğumluyum
-                uzun bir süre boyunca Kırşehir de yaşadım.Sakarya Üniversitesi
-                Bilgisayar Mühendisliği 1.Sınıf Öğrencisiyim
-              </p>
-              
-              <br />
-          </div>
+      <div class="navbar bg-dark navbar-dark navbar-expand-sm">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="../Html Dosyaları/Hakkimda.html" class="nav-link"
+                ><i class="fas fa-user"></i>Hakkımda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../Html Dosyaları/Egitimbilgilerim.html" class="nav-link"
+                ><i class="fas fa-edit"></i>Eğitim Bilgileri</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../Html Dosyaları/Sehrim.html" class="nav-link"
+                ><i class="fa-solid fa-city"></i>Şehrim</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../Html Dosyaları/Mirasımız.html" class="nav-link"
+                ><i class="fa-solid fa-landmark"></i>Mirasımız</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../Html Dosyaları/İlgialanlarım.html" class="nav-link"
+                ><i class="fa-solid fa-guitar"></i>İlgi Alanlarım</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../Html Dosyaları/İletisim.html" class="nav-link"
+                ><i class="fa-solid fa-phone"></i>İletişim</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a
+              class="btn btn-danger"
+              href="http://localhost/PHP/WEB%20Proje/index2.php"
+              >Login</a
+            >
+          </form>
         </div>
-        <div class="içerik">
+      </div>
+      <br/>
+     <div class="container-content">
+
+      <div class="text-start pt-5 mt-5 px-3 row">
+        <div class="col-lg-2">
+          <img class="rounded-circle" src="../images/About.jpeg" alt="">
+        </div>
+     
+        <div class="yazi col-lg-10">
+            <p>
+              <i class="fa-solid fa-arrow-right-long"></i>  Merhaba ben Emre Can
+              Seçer WEB siteme Hoşgeldiniz.4 Ocak 2002 Ankara/Çankaya doğumluyum
+              uzun bir süre boyunca Kırşehir de yaşadım.Sakarya Üniversitesi
+              Bilgisayar Mühendisliği 1.Sınıf Öğrencisiyim.
+            </p>
+            
+            <br />
+        </div>
+      </div>
+      <br/>
+      <div class="içerik row">
+        <div class="col-lg-9">
           <p>
-            <i class="fa-solid fa-arrow-right-long"></i>Aktivite olarak Basketbol
+            <i class="fa-solid fa-arrow-right-long"></i> Aktivite olarak Basketbol
             ve E-spor ile ilgiliyim.Bu iki spor dalını hem izlemeyi hem de
             oynamaktan zevk alırım.Basketbolda NBA yi yakından takip ederken
-            E-spor da ise LEC/NA takımlarını yakından takip ederim <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br>
+            E-spor da ise LEC/NA takımlarını yakından takip ederim.
   
-            <i class="fa-solid fa-arrow-right-long"></i>Bunların dışında doğal
-            yaşamda vakit geçirmek doğa yürüyüşleri yapmak, kamp yapmak vb. gibi
-            doğayla ilgili şeyleri severim
-            
-          </p>
-          
+      </p>  
+      <br><br>
         </div>
-        <div class="social-media">
-          <a href="https://www.linkedin.com/in/emre-can-se%C3%A7er-b9404321b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/emre.secr/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <div class="col-lg-1">
+          <img src="../images/NBA-logo-illustration.jpg" alt="" width="100" />
         </div>
-  
-        <div class="içerik-resim">
-          <img src="../images/NBA-logo-illustration.jpg" alt="" width="120" />
+        <div class="col-md-1">
+          <img src="../images/LEC.jpg" alt="" width="100" />
         </div>
-        <div class="içerik-resim2">
-          <img src="../images/LEC.jpg" alt="" width="120" />
-        </div>
+    
       </div>
+      <div class="row">
+        <div class="col-lg-10">
+          <p>
+          <i class="fa-solid fa-arrow-right-long"></i> Bunların dışında doğal
+          yaşamda vakit geçirmek doğa yürüyüşleri yapmak, kamp yapmak vb. gibi
+          doğayla ilgili şeyleri severim.
+          
+        </p>
+        </div>
+        
+      </div>
+      <br>
+      <br>
+  
+     </div>
+    
+     <div class="footer-dark">
+      <footer>
+          <div class="container-footer">
+              <div class="row">
+                  <div class="col item social">
+                    <a href="https://www.linkedin.com/in/emre-can-se%C3%A7er-b9404321b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/emre.secr/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+           
+          </div>
+      </footer>
   </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+      </div> 
+    </div>
+
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+
   </body>
+
 </html>

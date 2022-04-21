@@ -1,6 +1,6 @@
 
 body{
-  padding: 15px;
+  padding: 25px;
   background-color: #84AFBE!important;
   }
   
@@ -140,6 +140,38 @@ body{
     transition: .3s;
     color: #3B5998 ;
   }
+  /* CARD CSS */
+  .photo{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+   
+.card #first{
+height: 23rem;
+border-top-left-radius: 5% ;
+border-top-right-radius: 5%;
+}
+.card #second{
+height: 23rem;
+border-top-left-radius: 5% ;
+border-top-right-radius: 5%;
+}
+.card{
+    border-radius: 5% !important;
+}
+#firstPhoto{
+border-top-left-radius: 5% !important;
+border-top-right-radius: 5% !important;
+height: 23rem;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    
+    
+}
   
   
   

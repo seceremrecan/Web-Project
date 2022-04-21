@@ -1,0 +1,30 @@
+.photo{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+   
+.card #first{
+height: 23rem;
+border-top-left-radius: 5% ;
+border-top-right-radius: 5%;
+}
+.card #second{
+height: 23rem;
+border-top-left-radius: 5% ;
+border-top-right-radius: 5%;
+}
+.card{
+    border-radius: 5% !important;
+}
+.card-img-top{
+border-top-left-radius: 5% !important;
+border-top-right-radius: 5% !important;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    
+    
+}

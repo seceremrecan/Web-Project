@@ -2,6 +2,7 @@
 body{
   padding: 15px;
   background-color: #84AFBE!important;
+  color: rgb(19, 19, 19);
   }
   
   .container{
@@ -140,7 +141,25 @@ body{
     transition: .3s;
     color: #3B5998 ;
   }
+  /* FORM CSS */
+.form-control{
+  width: 50% !important;
+}
+  .form-header{
+    margin-bottom: 3%;
+  }
+  .field{
+    width: 100%;
+    height: 45px;
+    /* display: flex; */
+  }
+  /* .field input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 18px;
+
+  } */
   
-  
-  
-      

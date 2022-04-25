@@ -176,7 +176,7 @@ body{
   .arrow {
     height: 200px;
     padding: 0 5px;
-    width: 100px;
+    width: 200px;
     cursor: pointer;
     transition: .3s ease-out all;
     border-radius: 8px;

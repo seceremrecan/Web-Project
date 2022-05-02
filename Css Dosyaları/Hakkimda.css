@@ -10,6 +10,7 @@ background-color: #84AFBE!important;
   padding-left:0rem !important;
   padding-right: 0rem !important;
 }
+
 .navbar{
   padding: 0% 5% 0% 5%;
   border-top-left-radius:30px;
@@ -45,9 +46,15 @@ margin-top: -40px;
 
 /*NEW CSS*/
 
-.container-content{
+/* .container-content{
   padding: 0rem 3rem 3rem 3rem;
+} */
+.container #container{
+  padding: 0rem 3rem 3rem 3rem;
+  border-radius: 30px;
 }
+
+
 .custom-footer .container-footer{
   background-color: black;
 }

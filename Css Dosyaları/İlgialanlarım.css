@@ -140,7 +140,48 @@ body{
     transition: .3s;
     color: #3B5998 ;
   }
+  /* ilgi alanı */
   
+  .category-title{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #010101;
+}
+.card{
+  border-radius: 6px;
+  border: none!important;
+  box-shadow: 0 2px 3px 2px rgb(65 70 75 / 8%);
+  margin-right: 39px!important;
+  margin-bottom: 40px;
+  padding: 0;
+  
+}
+.title{
+  padding-left: 9px;
+}
+#card-container img{
+  margin: 2%;
+  padding: 5px;
+  height: 50%;
+  border-radius: 20px;
+}
+#card-container .card{
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 4px 6px #f1f1f1;
+        -moz-box-shadow: 0 0 4px 6px #f1f1f1;
+        box-shadow: 0 0 4px 6px #f1f1f1; border-radius: 30px ; 
+        margin-right: 6% !important;
+        margin-left: 0%;
+       
+}
+#card-container .overview{
+  position: relative;
+  
+}
+.custom-stars{
+  color: #FFD43B;
+}
+
   
   
       

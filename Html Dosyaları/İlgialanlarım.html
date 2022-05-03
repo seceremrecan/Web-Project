@@ -106,9 +106,18 @@
 
     
 
-     <div class="footer-dark">
-      
-    </div>
+    <div class="footer-dark">
+      <footer>
+          <div class="container-footer">
+              <div class="row">
+                  <div class="col item social">
+                    
+                  </div>
+              </div>
+           
+          </div>
+      </footer>
+  </div>
      
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -121,7 +130,7 @@ $(document).ready(function() {
 });
 
 function getMovies(){
-   debugger;
+   //debugger;
   var token = config.MY_API_KEY;
   const posterURL = "https://image.tmdb.org/t/p/original";
   var url="https://api.themoviedb.org/3/movie/popular?api_key=";
@@ -135,7 +144,7 @@ function getMovies(){
   for(var i =0; i< data.results.length;i++){
     document.getElementById("card-container").innerHTML += 
    
-    '<div class="col-3 card "  id='+data.results[i].id +' >'
+    '<div class="col-sm-3 card "  id='+data.results[i].id +' >'
       +'<img src="'+ posterURL+ data.results[i].poster_path+' ">'
       + '<div>'
       +  '<div class="row">'

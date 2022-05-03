@@ -97,6 +97,7 @@ margin-top: -40px;
     text-align:center;
     padding-bottom:20px;
   }
+
 }
 
 .footer-dark .item.text {
@@ -107,6 +108,7 @@ margin-top: -40px;
   .footer-dark .item.text {
     margin-bottom:0;
   }
+ 
 }
 
 .footer-dark .item.text p {
@@ -124,6 +126,9 @@ margin-top: -40px;
     text-align:center;
     margin-top:20px;
   }
+  .container-content {
+    padding: 0rem 1rem 0rem 0rem !important;
+}
 }
 
 .footer-dark .item.social  a {

@@ -88,6 +88,12 @@ body{
   .footer-dark ul a:hover {
     opacity:0.8;
   }
+  @media (max-width:667px) {
+    .imagesDiv {
+      width: 130% !important;
+    }
+  
+  }
   
   @media (max-width:767px) {
     .footer-dark .item:not(.social) {
@@ -200,6 +206,7 @@ body{
        padding-top: 50px;
        text-align: center;
        line-height: 100%;
+       width: 9rem;
     }
   } 
   

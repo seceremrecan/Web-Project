@@ -46,7 +46,12 @@ body{
   /*NEW CSS*/
   
   .container-content{
-    padding: 0rem 3rem 3rem 3rem;
+    padding: 0px 2rem 2rem 2rem;
+  }
+  @media (max-width:667px) {
+    .container-content{
+      padding: 0rem 0rem 0rem 0rem;
+    }
   }
   .custom-footer .container-footer{
     background-color: black;
